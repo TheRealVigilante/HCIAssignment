@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #1a1a1d;
+    color: #e0e0e0;
+}
+header {
+    background-color: #121212;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #ff0036;
+}
+.image-container {
+    background-color: #121212; /* Dark background behind the image */
+    padding: 20px;
+    display: inline-block; /* Makes the container just big enough for the image */
+    border-radius: 10px;   /* Optional: adds rounded corners */
+}
+
+.image-container img {
+    width: 300px; /* Adjust the size of your image */
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.nav-links .active {
+    color: #ff0036;
+    font-weight: bold;
+}
+header h1 {
+    font-size: 3em;
+    color: #ff0036;
+    text-align: center;
+    flex-grow: 1;
+}
+/* Highlighting the page you're currently on */
+.nav-links .active:hover {
+    text-decoration: none;
+}
+header h1 {
+    font-size: 3em;
+    color: #ff0036;
+}
+.content {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.features-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+.features-table th, .features-table td {
+    padding: 15px;
+    text-align: left;
+}
+.features-table th {
+    background-color: #2c2c2e;
+    color: #ff0036;
+}
+.features-table td {
+    background-color: #232323;
+    border-bottom: 1px solid #3e3e3e;
+}
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.price-table th, .price-table td {
+    padding: 15px;
+    text-align: left;
+}
+.price-table th {
+    background-color: #2c2c2e;
+    color: #00ff99;
+}
+.price-table td {
+    background-color: #232323;
+    border-bottom: 1px solid #3e3e3e;
+}
+h2 {
+    font-size: 2.5em;
+    color: #ff0036;
+    margin-bottom: 20px;
+}
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+ol li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    margin-top: 40px;
+    border-top: 3px solid #ff0036;
+}
