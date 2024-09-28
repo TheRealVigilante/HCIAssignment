@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    /* Primary color: Black */
+    color: #fff;
+    /* Secondary color: White */
+    margin: 0;
+    /* padding: 20px; */
+}
+
+header {
+    background-color: #121212;
+    font-size: medium;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #710c04;
+    /* width: 100%; */
+}
+.image-container {
+    background-color: #121212; /* Dark background behind the image */
+    padding: 20px;
+    display: inline-block; /* Makes the container just big enough for the image */
+    border-radius: 10px;   /* Optional: adds rounded corners */
+}
+
+.image-container img {
+    width: 300px; /* Adjust the size of your image */
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.nav-links .active {
+    color: #710c04;
+    font-weight: bold;
+}
+header h1 {
+    font-size: 3em;
+    color: #710c04;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.nav-links .active:hover {
+    text-decoration: none;
+}
+header h1 {
+    font-size: 3em;
+    color: #710c04;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cart {
+    background-color: #1a1a1a;
+    /* Dark grey background for cards */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    /* White shadow for depth */
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+    /* Dark grey border */
+    margin-bottom: 20px;
+}
+
+.item-info {
+    display: flex;
+}
+
+.item-info img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.item-info input {
+    margin-top: 10px;
+}
+
+.item-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.item-details .in-stock {
+    color: #4caf50;
+    /* Green color for "In Stock" */
+    font-weight: bold;
+}
+
+.item-details .options a {
+    margin-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #710c04;
+    /* Accent color: Red */
+}
+
+.item-details .options a:hover {
+    text-decoration: underline;
+}
+
+.item-price {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    color: #fff;
+    /* White for price text */
+}
+
+.subtotal {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.subtotal p {
+    margin-right: 10px;
+}
+
+.subtotal strong {
+    color: #710c04;
+    /* Accent color for subtotal price */
+}
+
+select,
+input[type="checkbox"] {
+    background-color: #333;
+    /* Dark background for inputs */
+    color: white;
+    border: 1px solid #555;
+    /* Lighter grey border for inputs */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+select {
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}

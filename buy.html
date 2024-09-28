@@ -1,10 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="CSS/buy.css">
 </head>
+
 <body>
 
+  <header>
+    <a href="index.html"><img class="image-container" src="Images/logo3.png" width="200" alt="ROG Logo"></a>
+    <h1>Gaming, Levelled Up</h1>
+    <div class="nav-links">
+      <a href="specs.html">Features</a>
+      <a href="awards.html">Awards</a>
+      <a href="buy.html" class="active">Buy Now</a>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- Shopping Cart Section -->
+    <div class="cart">
+
+      <!-- Product Item -->
+      <div class="cart-item">
+        <!-- Image and details -->
+        <div class="item-info">
+          <input type="checkbox" checked>
+          <img src="Images/8pro_4.jpg" alt="Product Image">
+          <div class="item-details">
+            <p><strong>ROG Phone 8 Pro</strong></p>            
+            <p>Black, comes with Cooling Fan, Charger, Charging Cable and Instruction Manual</p>
+            <p class="in-stock">In Stock</p>
+            <p>Eligible for FREE delivery</p>
+            <p>Package Weight: 700g</p>
+            <label for="quantity">Qty:</label>
+            <select id="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <!-- Price -->
+        <div class="item-price">
+          SAR 44.99
+        </div>
+      </div>
+
+      <!-- Subtotal Section -->
+      <div class="subtotal">
+        <p>Subtotal (1 item):</p>
+        <p><strong>SAR 44.99</strong></p>
+      </div>
+
+    </div>
+
+  </div>
+
 </body>
+
 </html>
