@@ -175,7 +175,7 @@ h2 {
 
 /* Testimonials Section */
 .testimonials {
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
     background-color: black;
     text-align: center;
 }
@@ -195,6 +195,30 @@ blockquote {
 p {
     margin-bottom: 10px;
     color: white;
+}
+
+.writers {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center; /* Horizontally centers the table */
+    align-items: center;     /* Vertically centers the table, if necessary */
+}
+
+.writers table {
+    margin: auto;            /* Ensures table is centered horizontally */
+    border-collapse: collapse;
+    border-radius: 10px; /* Add border-radius to the table */
+    overflow: hidden;    /* Ensures the radius is applied properly */
+}
+
+
+.writers th, .writers td {
+    color: white;
+    padding: 10px 20px;      /* Adds some padding to the table cells */
+    text-align: center;      /* Centers the text inside the table cells */
+    border: 0.5px solid #710c04; /* Optional: border for the table with the accent color */
+    border-radius: 5px;
+    font-size: large;
 }
 
 .footer {
