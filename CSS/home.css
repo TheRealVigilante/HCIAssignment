@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+}
+
+header {
+    background-color: #121212;
+    font-size: medium;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #710c04;
+    /* width: 100%; */
+}
+.image-container {
+    background-color: #121212; /* Dark background behind the image */
+    padding: 20px;
+    display: inline-block; /* Makes the container just big enough for the image */
+    border-radius: 10px;   /* Optional: adds rounded corners */
+}
+
+.image-container img {
+    width: 300px; /* Adjust the size of your image */
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.nav-links .active {
+    color: #710c04;
+    font-weight: bold;
+}
+header h1 {
+    font-size: 3em;
+    color: #710c04;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.nav-links .active:hover {
+    text-decoration: none;
+}
+header h1 {
+    font-size: 3em;
+    color: #710c04;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.background-section {
+    background-image: url('../Images/8pro_1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Aspect ratio (16:9 in this case, adjust accordingly) */
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.gradient-section {
+    /* background: linear-gradient(to right, #0a1018, black); */
+    background: linear-gradient(to bottom, #0a1018, black);
+    padding: 50px 20px;
+    color: white; /* Ensures text is visible against the dark gradient */
+    height: 15px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.features h3 {
+    margin-top: 20px;
+    color: white;
+    /* margin-right: 500px;
+    margin-left: 500px; */
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    /* background-color: #121212; */
+    text-align: center;
+
+    background-image: url('../Images/background2.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Aspect ratio (16:9 in this case, adjust accordingly) */
+    position: relative;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.feature-item {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    height: 100%; /* Ensure the grid items stretch to the same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute items evenly */
+    border-bottom: 4px solid #710c04;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for shadow and scale */
+}
+
+.feature-item:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+    transform: translateY(-5px); /* Slight upward movement on hover */
+}
+
+.feature-item img {
+    max-width: 175px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.feature-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: white;
+    flex-grow: 1; /* Make the text grow and fill available space */
+}
+
+.feature-item p {
+    color: #ccc;
+    margin-top: auto; /* Push the paragraph text to the bottom */
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #ccc;
+}
+
+p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    margin-top: 40px;
+    border-top: 3px solid #710c04;
+}
