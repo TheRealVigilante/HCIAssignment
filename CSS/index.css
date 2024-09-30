@@ -1,0 +1,61 @@
+body {
+    background-image: url('../Images/8pro_1.jpg'); /* Path of your image if you want to use an image as background */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+}
+
+
+header {
+    background-color: #121212;
+    font-size: medium;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #710c04;
+    /* width: 100%; */
+}
+.image-container {
+    background-color: #121212; /* Dark background behind the image */
+    padding: 20px;
+    display: inline-block; /* Makes the container just big enough for the image */
+    border-radius: 10px;   /* Optional: adds rounded corners */
+}
+
+.image-container img {
+    width: 300px; /* Adjust the size of your image */
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.nav-links .active {
+    color: #710c04;
+    font-weight: bold;
+}
+header h1 {
+    font-size: 3em;
+    color: #710c04;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.nav-links .active:hover {
+    text-decoration: none;
+}
+header h1 {
+    font-size: 3em;
+    color: #710c04;
+}
