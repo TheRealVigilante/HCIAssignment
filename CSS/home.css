@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #121212;
-    font-size: medium;
+    font-size: 20px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -24,11 +24,11 @@ header {
     background-color: #121212; /* Dark background behind the image */
     padding: 20px;
     display: inline-block; /* Makes the container just big enough for the image */
-    border-radius: 10px;   /* Optional: adds rounded corners */
+    border-radius: 10px;   /* Optional: adds rounded cTHE BEST AND HERE'S WHorners */
 }
 
 .image-container img {
-    width: 300px; /* Adjust the size of your image */
+    width: 200px; /* Adjust the size of your image */
 }
 .nav-links {
     display: flex;

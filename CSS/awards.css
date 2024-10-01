@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #121212;
-    font-size: medium;
+    font-size: 16px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -89,6 +89,7 @@ ul {
 
 ul li {
     font-size: 1.1em;
+    color: white;
     background: #1f1f1f;
     margin: 10px 0;
     padding: 10px;
@@ -104,7 +105,8 @@ a:hover{
     color: white;
 }
 .recognition-milestones ol li {
-    color: #cccccc;
+    color: white;
+    font-size: 1.2em;
 }
 
 footer {
